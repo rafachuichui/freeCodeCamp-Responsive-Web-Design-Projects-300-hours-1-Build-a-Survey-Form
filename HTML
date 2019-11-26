@@ -1,0 +1,44 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+
+<h1 id="title">freeCodeCamp Survey Form </h1>
+
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+
+
+<form id="survey-form">
+  
+  
+  <div class="form-group">
+    <label id="name-label" for="name">Name</label>
+    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+  </div>
+  
+  
+  <div class="form-group">
+     <label id="email-label" for="email">Email</label>
+    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+  </div>
+  
+  
+  <div class="form-group">
+    <labe id="number-label" for="number">Age (optional)</labe>
+    <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholer="Age">
+  </div>
+  
+  
+  <div class="form-group">
+    <p>Which option best describes your current role?</p>
+    
+    <select id="droptdown" name="role" class="form-control required">    
+      <option disabled selected value>Select current role</option>
+      <option value="student">Student</option>
+      <option value="">Fill Timer Learner</option>
+      <option value="">Full Time Job</option>
+      <option value="">Prefer not to say</option>
+      <option value="">Other</option>
+    </select>
+  </div>
